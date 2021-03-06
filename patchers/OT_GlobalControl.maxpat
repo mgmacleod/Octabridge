@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 800.5, 404.0, 108.0, 22.0 ],
+					"text" : "s OT_sendAllCCs"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-59",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -480,15 +491,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"linecount" : 2,
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 920.5, 35.0, 55.0, 29.0 ],
+					"patching_rect" : [ 788.5, 300.0, 61.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 434.0, 67.0, 55.0, 29.0 ],
-					"text" : "Send all CCs",
+					"presentation_rect" : [ 434.0, 67.0, 60.0, 18.0 ],
+					"text" : "Push all CCs",
 					"textjustification" : 0
 				}
 
@@ -501,7 +510,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 932.5, 82.0, 22.0, 22.0 ],
+					"patching_rect" : [ 800.5, 347.0, 22.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 503.0, 67.0, 22.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
@@ -524,15 +533,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-16",
-					"linecount" : 2,
 					"maxclass" : "live.comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 781.0, 35.0, 53.0, 29.0 ],
+					"patching_rect" : [ 781.0, 35.0, 61.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 434.0, 20.0, 53.0, 29.0 ],
-					"text" : "Receive all CCs",
+					"presentation_rect" : [ 434.0, 20.0, 60.0, 18.0 ],
+					"text" : "Pull all CCs",
 					"textjustification" : 0
 				}
 
@@ -922,6 +929,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-52", 1 ],
 					"source" : [ "obj-19", 0 ]
 				}
@@ -1048,9 +1062,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-49", 2 ],
-					"source" : [ "obj-45", 0 ],
-					"watchpoint_flags" : 1,
-					"watchpoint_id" : 2
+					"source" : [ "obj-45", 0 ]
 				}
 
 			}
