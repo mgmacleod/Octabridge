@@ -1158,6 +1158,8 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16" ],
+							"parameter_initial" : [ 8 ],
+							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.menu[1]",
 							"parameter_mmax" : 15,
 							"parameter_shortname" : "live.menu",
