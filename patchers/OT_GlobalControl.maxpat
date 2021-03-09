@@ -47,7 +47,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 484.0, 550.75, 56.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "prepend set"
 				}
 
@@ -61,7 +60,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 623.75, 544.75, 56.0, 36.0 ],
-					"presentation_linecount" : 2,
 					"text" : "prepend set"
 				}
 
@@ -74,7 +72,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 392.0, 544.75, 55.0, 36.0 ],
+					"patching_rect" : [ 392.0, 544.75, 56.0, 36.0 ],
 					"text" : "prepend set"
 				}
 
@@ -1276,15 +1274,16 @@
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16" ],
 							"parameter_initial" : [ 8 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.menu[1]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "SceneB",
 							"parameter_mmax" : 15,
-							"parameter_shortname" : "live.menu",
+							"parameter_shortname" : "SceneB",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"varname" : "live.menu[1]"
+					"varname" : "SceneB"
 				}
 
 			}
@@ -1302,15 +1301,16 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16" ],
-							"parameter_longname" : "live.menu",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "SceneA",
 							"parameter_mmax" : 15,
-							"parameter_shortname" : "live.menu",
+							"parameter_shortname" : "SceneA",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"varname" : "live.menu"
+					"varname" : "SceneA"
 				}
 
 			}
@@ -2281,8 +2281,8 @@
 			"obj-20" : [ "Bank", "Bank", 0 ],
 			"obj-23" : [ "TogglePC", "TogglePC", 0 ],
 			"obj-27" : [ "ToggleMidiOut", "ToggleMidiOut", 0 ],
-			"obj-4" : [ "live.menu", "live.menu", 0 ],
-			"obj-5" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-4" : [ "SceneA", "SceneA", 0 ],
+			"obj-5" : [ "SceneB", "SceneB", 0 ],
 			"obj-77" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-85" : [ "Sync Select", "SyncSelect", 0 ],
 			"obj-9" : [ "ToggleMidiIn", "ToggleMidiIn", 0 ],
