@@ -57,7 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1355.0, 30.0, 178.0, 144.0 ],
+					"patching_rect" : [ 1365.0, -29.0, 181.0, 144.0 ],
 					"text" : "This is a bit of a hack to force the MIDI output gates to be closed on device load.  Without this, the values of the controls get sent out regardless of the global 'Sync on Start' setting.  \n\nThe correct setting for the gates is then requested via the above 's OT_request_midi_io` "
 				}
 
@@ -122,7 +122,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1218.25, 5.0, 30.0, 30.0 ]
+					"patching_rect" : [ 1300.0, -15.0, 30.0, 30.0 ]
 				}
 
 			}
