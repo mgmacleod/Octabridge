@@ -40,13 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-232",
+					"id" : "obj-231",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -76.5, 61.0, 128.0, 34.0 ],
-					"text" : "Messages sent from the OT_Global device "
+					"patching_rect" : [ 703.0, 1.0, 230.0, 34.0 ],
+					"text" : "bang all live.* objects to send their values out as CCs"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-232",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -76.5, 79.0, 128.0, 62.0 ],
+					"text" : "Messages sent from the OT_Global device to control CC I/O states "
 				}
 
 			}
@@ -5738,7 +5750,7 @@
 				"patchline" : 				{
 					"color" : [ 0.0, 0.180392156862745, 1.0, 0.109803921568627 ],
 					"destination" : [ "obj-147", 0 ],
-					"midpoints" : [ -67.0, 375.0, 297.0, 375.0, 297.0, 705.0, 203.75, 705.0 ],
+					"midpoints" : [ -67.0, 375.0, 86.0, 375.0, 86.0, 705.0, 203.75, 705.0 ],
 					"order" : 29,
 					"source" : [ "obj-71", 0 ]
 				}
@@ -5748,7 +5760,7 @@
 				"patchline" : 				{
 					"color" : [ 0.0, 0.180392156862745, 1.0, 0.109803921568627 ],
 					"destination" : [ "obj-148", 0 ],
-					"midpoints" : [ -67.0, 375.0, 297.0, 375.0, 297.0, 705.0, 147.75, 705.0 ],
+					"midpoints" : [ -67.0, 375.0, 85.0, 375.0, 85.0, 705.0, 147.75, 705.0 ],
 					"order" : 31,
 					"source" : [ "obj-71", 0 ]
 				}
