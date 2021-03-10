@@ -46,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 484.0, 550.75, 56.0, 36.0 ],
+					"patching_rect" : [ 481.0, 550.75, 56.0, 36.0 ],
 					"text" : "prepend set"
 				}
 
@@ -59,7 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 623.75, 544.75, 56.0, 36.0 ],
+					"patching_rect" : [ 623.75, 550.75, 56.0, 36.0 ],
 					"text" : "prepend set"
 				}
 
@@ -72,7 +72,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 392.0, 544.75, 56.0, 36.0 ],
+					"patching_rect" : [ 391.75, 550.75, 56.0, 36.0 ],
 					"text" : "prepend set"
 				}
 
@@ -1843,14 +1843,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-83", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-82", 0 ],
 					"source" : [ "obj-63", 0 ]
 				}
 
@@ -2116,6 +2116,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-82", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
 					"source" : [ "obj-85", 1 ]
 				}
@@ -2165,7 +2179,7 @@
 				"patchline" : 				{
 					"color" : [ 0.929411764705882, 0.584313725490196, 1.0, 1.0 ],
 					"destination" : [ "obj-92", 0 ],
-					"midpoints" : [ 852.166666666666629, 348.0, 941.0, 348.0, 941.0, 474.0, 923.0, 474.0 ],
+					"midpoints" : [ 852.166666666666629, 348.0, 941.0, 348.0, 941.0, 473.0, 923.0, 473.0 ],
 					"order" : 0,
 					"source" : [ "obj-86", 1 ]
 				}
@@ -2175,7 +2189,7 @@
 				"patchline" : 				{
 					"color" : [ 0.12156862745098, 0.545098039215686, 1.0, 1.0 ],
 					"destination" : [ "obj-92", 0 ],
-					"midpoints" : [ 824.5, 327.0, 974.0, 327.0, 974.0, 474.0, 923.0, 474.0 ],
+					"midpoints" : [ 824.5, 327.0, 974.0, 327.0, 974.0, 480.0, 923.0, 480.0 ],
 					"order" : 0,
 					"source" : [ "obj-86", 0 ]
 				}
